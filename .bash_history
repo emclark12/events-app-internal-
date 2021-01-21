@@ -21,3 +21,10 @@ git config --global user.email "emily.a.clark2020@gmail.com"
 git config --global user.name "emclark12"
 git init
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/emclark12/events-app-internal-.git
+git branch -M main
+git push -u origin main
+clear
+git init
