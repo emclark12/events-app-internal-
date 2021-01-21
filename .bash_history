@@ -28,3 +28,8 @@ git branch -M main
 git push -u origin main
 clear
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin your-git-internal-repo-address
+git remote add origin https://github.com/emclark12/events-app-external.git
+git init
